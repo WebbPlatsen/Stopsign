@@ -1,0 +1,125 @@
+/**
+ * stopsign-public-css
+ *
+ * This file is part of Stopsign.
+ */
+
+/* Table output ("standard") */
+
+div.stopsign-stop {
+    padding: 0; margin-top: 0; margin-bottom: 0;
+}
+table.stopsign-stop {
+    background: #eeeeee !important;
+    border: 1px solid #666666 !important;
+    border-collapse: collapse !important;
+    font-size: 2.4rem;
+}
+table.stopsign-stop th {
+    background-color: black !important;
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+    border: 0 !important;
+    font-size: 2rem;
+}
+table.stopsign-stop td.stopsign_default_time {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.6rem;
+}
+table.stopsign-stop td.stopsign_default_number {
+    text-align: center;
+    font-size: 2.4rem;
+}
+table.stopsign-stop td.stopsign_default_direction {
+    text-align: left;
+    font-size: 2.4rem;
+}
+table.stopsign-stop td.stopsign_default_type {
+    text-align: left;
+    font-size: 2rem;
+}
+table.stopsign-stop td.stopsign_default_type_icon {
+    text-align: center;
+    font-size: 48px;
+    line-height: 52px;
+    width: 60px;
+    padding: 2px;
+}
+
+/* Table output ("standard"), widget */
+
+div.stopsign-stop-widget {
+    padding: 0; margin-top: 0; margin-bottom: 0;
+}
+table.stopsign-stop-widget {
+    background: #eeeeee !important;
+    border: 1px solid #666666 !important;
+    border-collapse: collapse !important;
+    font-size: 1.6rem;
+}
+table.stopsign-stop-widget th {
+    background-color: black !important;
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+    border: 0 !important;
+}
+table.stopsign-stop-widget td.stopsign_default_time {
+    font-weight: bold;
+    text-align: center;
+}
+table.stopsign-stop-widget td.stopsign_default_number {
+    text-align: center;
+}
+table.stopsign-stop-widget td.stopsign_default_direction {
+    text-align: left;
+}
+table.stopsign-stop-widget td.stopsign_default_type {
+    text-align: left;
+}
+table.stopsign-stop-widget td.stopsign_default_type_icon {
+    text-align: center;
+    font-size: 32px;
+    line-height: 36px;
+    width: 40px;
+    padding: 2px;
+}
+
+/* Grouped output */
+
+div.stopsign-grouped-stop {
+    width: 100%;
+    padding: 2px;
+}
+div.stopsign-grouped-header {
+    font-size: 48px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+div.stopsign-grouped-header span {
+    font-weight: bold;
+}
+div.stopsign-grouped-time {
+    font-size: 40px;
+}
+
+/* Grouped output, widget */
+
+div.stopsign-grouped-stop-widget {
+    width: 100%;
+    padding: 2px;
+}
+div.stopsign-grouped-header-widget {
+    font-size: 1.6rem;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+div.stopsign-grouped-header-widget span {
+    font-weight: bold;
+}
+div.stopsign-grouped-time-widget {
+    font-size: 1.4rem;
+    font-weight: bold;
+}

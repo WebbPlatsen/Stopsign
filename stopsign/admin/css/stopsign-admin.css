@@ -1,0 +1,26 @@
+/**
+ * All of the CSS for your admin-specific functionality should be included in
+ * this file.
+ *
+ * This file is part of Stopsign.
+ */
+
+table .stopsign-result {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 0; margin: 0;
+}
+.stopsign-result th {
+  padding-left: 3px;
+  text-align: left;
+  font-weight: bold;
+  background: black;
+  color: white;
+}
+.stopsign-result td {
+  padding-left: 3px;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: top;
+  white-space: nowrap;
+}

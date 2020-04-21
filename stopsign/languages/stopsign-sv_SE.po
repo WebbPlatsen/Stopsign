@@ -1,0 +1,185 @@
+# Stopsign WordPress plugin SWEDISH translation
+# Copyright (C) 2020 Joaquim Homrighausen
+# This file is distributed under the same license as the Stopsign package.
+# Joaquim Homrighausen <joho@webbplatsen.se>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: stopsign 1.0.0\n"
+"Report-Msgid-Bugs-To: joho@webbplatsen.se\n"
+"POT-Creation-Date: 2020-04-20 22:08+0000\n"
+"PO-Revision-Date: 2020-04-21 10:07+0000\n"
+"Last-Translator: Joaquim Homrighausen <joho@webbplatsen.se>\n"
+"Language-Team: SWEDISH <joho@webbplatsen.se>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/class-stopsign-admin.php:65 admin/class-stopsign-admin.php:65
+msgid "Commute stop ID"
+msgstr "Hållplats-id"
+
+#: admin/class-stopsign-admin.php:66 admin/class-stopsign-admin.php:66
+msgid "Commute stop name"
+msgstr "Hållplatsnamn"
+
+#: admin/class-stopsign-admin.php:67 admin/class-stopsign-admin.php:67
+msgid "Stop types"
+msgstr "Typer av färdmedel"
+
+#: admin/class-stopsign-admin.php:68 admin/class-stopsign-admin.php:68
+msgid "No match"
+msgstr "Ingen träff"
+
+#: admin/class-stopsign-admin.php:92 admin/class-stopsign-admin.php:85
+msgid "Commute stop ID lookup"
+msgstr "Uppslag av hållplats-id"
+
+#: admin/class-stopsign-admin.php:96 admin/class-stopsign-admin.php:89
+msgid "Search location"
+msgstr "Sök hållplats"
+
+#: admin/class-stopsign-admin.php:99 admin/class-stopsign-admin.php:92
+#: admin/class-stopsign-admin.php:93
+msgid "Enter a location to lookup ID"
+msgstr "Ange en plats för att göra uppslag efter hållplats-id"
+
+#: admin/class-stopsign-admin.php:100 admin/class-stopsign-admin.php:93
+msgid ""
+"This search may return a commuter stop close to what you are looking for"
+msgstr "Sökresultatet kan inkludera närliggande hållplatser"
+
+#: admin/class-stopsign-admin.php:126 admin/class-stopsign-admin.php:119
+msgid "Stopsign settings"
+msgstr "Inställningar för Stopsign"
+
+#: admin/class-stopsign-admin.php:146 admin/class-stopsign-admin.php:139
+msgid "Commute stop API key"
+msgstr "API-nyckel för hållplats-uppslag"
+
+#: admin/class-stopsign-admin.php:155 admin/class-stopsign-admin.php:177
+#: admin/class-stopsign-admin.php:148 admin/class-stopsign-admin.php:170
+msgid "Enter a valid API key"
+msgstr "Ange en giltig API-nyckel"
+
+#: admin/class-stopsign-admin.php:157 admin/class-stopsign-admin.php:179
+#: admin/class-stopsign-admin.php:150 admin/class-stopsign-admin.php:172
+msgid "An API key from the Trafiklab"
+msgstr "En API-nyckel från Trafiklabs"
+
+#: admin/class-stopsign-admin.php:161 admin/class-stopsign-admin.php:183
+#: admin/class-stopsign-admin.php:154 admin/class-stopsign-admin.php:176
+msgid "service. Registration may be required."
+msgstr "-tjänst. Registrering kan behövas."
+
+#: admin/class-stopsign-admin.php:168 admin/class-stopsign-admin.php:161
+msgid "Commute planner API key"
+msgstr "API-nyckel för reseplaneraren"
+
+#: admin/class-stopsign-admin.php:190 admin/class-stopsign-admin.php:183
+msgid "Other settings"
+msgstr "Andra inställningar"
+
+#: admin/class-stopsign-admin.php:192 admin/class-stopsign-admin.php:185
+msgid "Clean strings"
+msgstr "Rensa hållplatsnamn"
+
+#: admin/class-stopsign-admin.php:200 admin/class-stopsign-admin.php:193
+msgid ""
+"Truncates direction and commute stop name strings at first occurrence of "
+"\" (\" or \" [\"."
+msgstr ""
+"Trunkerar namn på riktningar och hållplatser vid första \" (\" eller \" [\"."
+
+#: admin/class-stopsign-admin.php:205 admin/class-stopsign-admin.php:198
+msgid "Use transients"
+msgstr "Använd transients"
+
+#: admin/class-stopsign-admin.php:213 admin/class-stopsign-admin.php:206
+msgid ""
+"Make use of WordPress' internal \"transients\" handler to prevent flooding "
+"of the the API."
+msgstr ""
+"Använd WordPress interna \"transients\"-funktioner för att förhindra onödiga "
+"anrop till APIet"
+
+#: admin/class-stopsign-admin.php:218 admin/class-stopsign-admin.php:211
+msgid "Remove settings"
+msgstr "Radera inställningar"
+
+#: admin/class-stopsign-admin.php:226 admin/class-stopsign-admin.php:219
+msgid ""
+"Remove all Stopsign plugin settings and data when plugin is uninstalled."
+msgstr "Radera alla inställningar för Stopsign när tillägget avinstalleras."
+
+#: public/class-stopsign-public.php:184 public/class-stopsign-public.php:184
+msgid "Type"
+msgstr "Typ"
+
+#: public/class-stopsign-public.php:187 public/class-stopsign-public.php:187
+msgid "Number"
+msgstr "Nummer"
+
+#: public/class-stopsign-public.php:190 public/class-stopsign-public.php:190
+msgid "Time"
+msgstr "Tid"
+
+#: public/class-stopsign-public.php:193 public/class-stopsign-public.php:193
+msgid "Direction"
+msgstr "Riktning"
+
+#: public/class-stopsign-public.php:220 public/class-stopsign-public.php:220
+msgid "Express train"
+msgstr "Expresståg"
+
+#: public/class-stopsign-public.php:221 public/class-stopsign-public.php:221
+msgid "Regional train"
+msgstr "Regionalt tåg"
+
+#: public/class-stopsign-public.php:222 public/class-stopsign-public.php:222
+msgid "Express bus"
+msgstr "Expressbuss"
+
+#: public/class-stopsign-public.php:223 public/class-stopsign-public.php:223
+msgid "Train"
+msgstr "Tåg"
+
+#: public/class-stopsign-public.php:224 public/class-stopsign-public.php:224
+msgid "Metro"
+msgstr "T-bana"
+
+#: public/class-stopsign-public.php:225 public/class-stopsign-public.php:225
+msgid "Tram"
+msgstr "Spårvagn"
+
+#: public/class-stopsign-public.php:226 public/class-stopsign-public.php:226
+msgid "Bus"
+msgstr "Buss"
+
+#: public/class-stopsign-public.php:227 public/class-stopsign-public.php:227
+msgid "Ferry"
+msgstr "Färja"
+
+#: public/class-stopsign-public.php:228 public/class-stopsign-public.php:228
+msgid "Taxi"
+msgstr "Taxi"
+
+#: public/class-stopsign-public.php:229 public/class-stopsign-public.php:243
+#: public/class-stopsign-public.php:229 public/class-stopsign-public.php:243
+msgid "?"
+msgstr "?"
+
+#: public/class-stopsign-public.php:346 public/class-stopsign-public.php:346
+msgid "stopsign: No API key for commutestop lookup configured"
+msgstr "stopsign): Ingen API-nyckel för hållplatsuppslag konfigurerad"
+
+#: public/class-stopsign-public.php:350 public/class-stopsign-public.php:350
+msgid "Shortcode needs ID"
+msgstr "Shortcode behöver ett ID"
+
+#: public/class-stopsign-public.php:517 public/class-stopsign-public.php:558
+#: public/class-stopsign-public.php:517 public/class-stopsign-public.php:558
+msgid "No departures found"
+msgstr "Inga avgångar hittades"
